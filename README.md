@@ -16,8 +16,6 @@ The Fritzing resources can be sourced here: https://github.com/adafruit/Fritzing
 
 This library was modified/wrapped by https://github.com/dyadica in order to work with Particle Photon & Core.
 
-#
-
 ## Usage
 
 Connect SGP30 hardware to the photon via the I2C ports, add the Adafruit_SGP30 library to your project. The sensor can be polled via the following code:
@@ -55,7 +53,14 @@ For a more in-depth example, including how to calibrate the sensor; please see t
 
 ## License Information
 
-This code was originally developed by Adafruit and as such adopts their license policy.
+This code was originally developed by Adafruit and as such adopts their license policy:
+
+This is the Adafruit SGP30 Gas / Air Quality I2C sensor library
+
+Tested and works great with the Aadafruit SGP30 Breakout Board
+
+http://www.adafruit.com/products/3709
+This chip uses I2C to communicate, 2 pins are required to interface
 
 Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
 

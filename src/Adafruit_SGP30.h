@@ -17,9 +17,12 @@
  * BSD license, all text here must be included in any redistribution.
  *
 */
-
+/*
 #include "Arduino.h"
 #include <Wire.h>
+*/
+
+#include "Particle.h"
 
 // the i2c address
 #define SGP30_I2CADDR_DEFAULT 0x58     ///< SGP30 has only one I2C address

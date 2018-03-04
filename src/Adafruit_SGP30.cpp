@@ -23,6 +23,8 @@
  * @section license License
  * BSD license, all text here must be included in any redistribution.
  *
+ * This library was modified/wrapped by SJB (https://github.com/dyadica)
+ * in order to work with Particle Photon & Core.
  */
 
 #include "Particle.h"

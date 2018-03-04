@@ -5,11 +5,18 @@ This is a port of the library developed by Adafruit for the Adafruit SGP30 Gas /
 This chip/breakout uses I2C to communicate. 2 pins are required to interface with the photon (D0 to SDA and D1 to SCL). You will also need to add power (3v3/GND).
 
 The breakout can be sourced here: http://www.adafruit.com/products/3709
+
 The original hook-up guide here: https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor
+
 The original library developed by Adafruit can be sourced here: https://github.com/adafruit/Adafruit_SGP30
+
 The Fritzing resources can be sourced here: https://github.com/adafruit/Fritzing-Library
 
-This library was modified/wrapped by SJB (https://github.com/dyadica) in order to work with Particle Photon & Core.
+#
+
+This library was modified/wrapped by https://github.com/dyadica in order to work with Particle Photon & Core.
+
+#
 
 ## Usage
 

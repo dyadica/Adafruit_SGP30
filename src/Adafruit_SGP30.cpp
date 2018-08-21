@@ -59,6 +59,7 @@ boolean Adafruit_SGP30::begin(TwoWire *theWire) {
   _i2c->begin();
 
 
+
   uint8_t command[2];
   command[0] = 0x36;
   command[1] = 0x82;
@@ -178,7 +179,7 @@ boolean Adafruit_SGP30::setHumidity(uint32_t absolute_humidity) {
 }
 
 /**************************************************************************/
-/*! 
+/*!
 >>>>>>> upstream/master:Adafruit_SGP30.cpp
     @brief  I2C low level interfacing
 */

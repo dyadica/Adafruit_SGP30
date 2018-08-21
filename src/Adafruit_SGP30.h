@@ -45,6 +45,7 @@ class Adafruit_SGP30 {
   boolean setIAQBaseline(uint16_t eco2_base, uint16_t tvoc_base);
   boolean setHumidity(uint32_t absolute_humidity);
 
+
   /**
    * The last measurement of the IAQ-calculated Total Volatile Organic Compounds in ppb. This value is set when you call {@link IAQmeasure()}
    */

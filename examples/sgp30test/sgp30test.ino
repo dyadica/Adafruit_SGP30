@@ -3,6 +3,7 @@
 // in order to work with Particle Photon & Core.
 
  #include "Particle.h"
+ #include "math.h"
  #include "Adafruit_SGP30.h"
 
 Adafruit_SGP30 sgp;
@@ -38,7 +39,7 @@ void setup() {
 int counter = 0;
 void loop()
 {
-  
+
   // If you have a temperature / humidity sensor, you can set the absolute humidity to enable the humditiy compensation for the air quality signals
   //float temperature = 22.1; // [°C]
   //float humidity = 45.2; // [%RH]

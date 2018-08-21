@@ -1,5 +1,9 @@
-#include <Wire.h>
-#include "Adafruit_SGP30.h"
+// Example usage for Adafruit_SGP30 library.
+// This library was modified/wrapped by SJB (https://github.com/dyadica)
+// in order to work with Particle Photon & Core.
+
+ #include "Particle.h"
+ #include "Adafruit_SGP30.h"
 
 Adafruit_SGP30 sgp;
 

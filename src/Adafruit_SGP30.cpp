@@ -72,7 +72,7 @@ boolean Adafruit_SGP30::begin(TwoWire *theWire) {
   if (! readWordFromCommand(command, 2, 10, &featureset, 1))
     return false;
   //Serial.print("Featureset 0x"); Serial.println(featureset, HEX);
-  if (featureset != SGP30_FEATURESET)
+  if  if (featureset & 0xF0) != SGP30_FEATURESET)
     return false;
   if (! IAQinit())
     return false;
